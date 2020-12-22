@@ -338,7 +338,8 @@
 
 .contact .form .form-group button {
   background-color: #c62584;
-  color: #ffffff;
+  color: #000000;
+  font-size: 1.25rem;
   display: block;
   width: 100%;
   border: none;
@@ -363,6 +364,7 @@
   font-size: 2rem;
   margin-bottom: 1.125rem;
 }
+
 .intro {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -575,6 +577,9 @@
   .intro .item-9 {
     display: none;
   }
+  .team .col {
+    width: 50%;
+  }
   .contact .info {
     font-size: 0.875rem;
   }
@@ -590,15 +595,6 @@
 }
 
 @media screen and (max-width: 576px) {
-  /* .toggle-sidebar {
-    display: block;
-  }
-  .header .navbar {
-    display: none;
-  }
-  .header .container {
-    justify-content: space-between;
-  } */
   .carousel h1 {
     font-size: 2rem;
   }
@@ -609,11 +605,6 @@
   .intro {
     grid-template-columns: 1fr;
   }
-  /* .intro .item-2,
-  .intro .item-4,
-  .intro .item-9 {
-    grid-column: initial;
-  } */
   .video .row {
     display: block;
   }
